@@ -1,0 +1,1 @@
+This repository demonstrates a bug in React Router Dom v6 where a catch-all route (`/*`) doesn't behave as expected.  Routes defined before the catch-all route are unexpectedly matched, even when those routes have specific paths. The solution shows how to fix this unexpected behavior.
